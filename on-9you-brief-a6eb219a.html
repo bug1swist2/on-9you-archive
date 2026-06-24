@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>再次相遇 · 九游</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f9f7f3;
+            font-family: 'Georgia', 'Times New Roman', 'Songti SC', serif;
+            color: #2e2c29;
+            line-height: 1.8;
+            padding: 2rem 1.2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page-card {
+            max-width: 820px;
+            width: 100%;
+            background: #ffffff;
+            padding: 3.2rem 2.8rem;
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.02);
+            transition: all 0.25s ease;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.2rem 0.8rem;
+            }
+            .page-card {
+                padding: 2rem 1.4rem;
+                border-radius: 18px;
+            }
+        }
+
+        .opening-line {
+            font-size: 1.6rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+            color: #69655e;
+            border-left: 4px solid #c4ad9d;
+            padding-left: 1.2rem;
+            margin-bottom: 1.6rem;
+            line-height: 1.4;
+        }
+
+        .intro-text {
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+            color: #3f3b36;
+        }
+
+        .intro-text a {
+            color: #7f6b5c;
+            text-decoration: none;
+            border-bottom: 1px dashed #b5a494;
+            transition: border-color 0.2s, color 0.2s;
+            font-weight: 500;
+        }
+
+        .intro-text a:hover {
+            color: #4d3f35;
+            border-bottom: 1px solid #4d3f35;
+        }
+
+        .feature-quote {
+            background: #f6f2ec;
+            padding: 1.8rem 2rem;
+            border-radius: 20px;
+            margin: 2.2rem 0 2.5rem 0;
+            border-left: 6px solid #b8a292;
+            font-style: normal;
+        }
+
+        .feature-quote h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #4f453b;
+            margin-bottom: 0.8rem;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .feature-list li {
+            padding-left: 1.8rem;
+            position: relative;
+            font-size: 1rem;
+            color: #38332e;
+        }
+
+        .feature-list li::before {
+            content: "·";
+            position: absolute;
+            left: 0;
+            color: #a18d7b;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 1;
+            top: -0.1rem;
+        }
+
+        .gentle-closing {
+            margin-top: 2.8rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #e5ddd4;
+            font-size: 1rem;
+            color: #59524b;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
+        }
+
+        .gentle-closing p {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .faq-note {
+            background: #f1ede6;
+            padding: 1rem 1.6rem;
+            border-radius: 40px;
+            display: inline-block;
+            font-size: 0.95rem;
+            color: #4a423b;
+            margin-top: 1rem;
+        }
+
+        .faq-note span {
+            font-weight: 600;
+            color: #6b5b4e;
+        }
+
+        .signature {
+            font-size: 0.9rem;
+            color: #9a8e81;
+            margin-top: 2rem;
+            text-align: right;
+            letter-spacing: 1px;
+        }
+
+        .quiet-link {
+            color: #7f6b5c;
+            text-decoration: none;
+            border-bottom: 1px solid #d4c3b4;
+            transition: color 0.2s;
+        }
+
+        .quiet-link:hover {
+            color: #3b322b;
+            border-bottom-color: #3b322b;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e7dfd6;
+            margin: 2rem 0 0.8rem 0;
+        }
+    </style>
+</head>
+<body>
+<div class="page-card">
+    <div class="opening-line">
+        再次打开，还是那个熟悉的角落。
+    </div>
+
+    <div class="intro-text">
+        <p>有些地方，第一次去是好奇，第二次去是习惯，后来就成了下意识的选择。<a href="https://on-9you.com.cn">九游</a>就是这样一个站点——不需要特意想起，却总在想要放松、想要找点东西看的时候，自然而然就点开了。</p>
+        <p style="margin-top: 1.2rem;">这里没有铺天盖地的弹窗，也没有刻意制造的焦虑。信息安安静静地摆在那里，像老友随手递过来的一杯茶，温度刚好。你尽管在页面里慢慢逛，收藏夹里留个位置，下次来的时候，一切还是顺手的模样。</p>
+    </div>
+
+    <div class="feature-quote">
+        <h3>一些让人愿意留下的细节</h3>
+        <ul class="feature-list">
+            <li>内容分类清晰，不靠夸张标题吸引注意，靠的是持续稳定的更新</li>
+            <li>页面干净，没有冗余的模块和自动播放的打扰，读起来很安静</li>
+            <li>无论用手机还是电脑，排版都舒服，图片加载克制，不消耗过多流量</li>
+            <li>收藏之后再次回来，界面风格和导航逻辑始终一致，不必重新适应</li>
+            <li>评论区气氛温和，少见争吵，更像是一群有相同爱好的人在轻声交流</li>
+        </ul>
+    </div>
+
+    <p style="font-size: 1.05rem; color: #3f3b36; margin-bottom: 0.2rem;">如果你也曾有过「这个网站不错，先存着以后慢慢看」的念头，那么不妨把<a href="https://on-9you.com.cn" class="quiet-link">九游</a>放进去。它不会频繁推送消息，也不会隔三差五改头换面；它就在那里，保持着让你舒服的节奏。</p>
+
+    <div class="gentle-closing">
+        <p>也许接下来的某一天，你随手打开收藏夹，看到那个熟悉的名字，点进去——发现它还在更新，还在用你习惯的方式，陪着你。</p>
+        <div class="faq-note">
+            <span>⏺</span> 常见问题摘要 · 页面加载慢？多半是网络波动，刷新即可；账号相关，目前无需注册。
+        </div>
+    </div>
+
+    <hr>
+    <div class="signature">
+        来自一位偶尔逛逛的访客 · 记于某个安静的午后
+    </div>
+</div>
+</body>
+</html>
